@@ -5,10 +5,14 @@ Live demo:
 https://anything-ranker.web.app/
 
 Note to self:
+
 2 interesting mechanics were used
+
 1. async array sorting
 2. promises resolved by user interaction
+
 conclusion:
+
 Promises resolved by button click in react were
 pretty awkward to implement, because I had to
 store resolve function in component state, which
@@ -23,7 +27,9 @@ irrevertable and fragile. Irrevertable means
 that I can not implement "undo" button and
 fragile means it will lose all the progress
 on any error. This is not a sustainable solution.
+
 thoughts on further development:
+
 Solution forr "undo" feature might be to use
 different sorting algorithm, one that I can
 extract intermediate result, the semisorted array.
