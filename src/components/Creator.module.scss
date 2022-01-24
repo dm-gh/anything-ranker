@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 16px;
+}
+
+.option {}
+
+.addOptionWrapper {
+    display: flex;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+
+.addOptionInput {}
+
+.addOptionButton {
+    margin-left: 16px;
+}
+
+.addOptionError {
+    color: red;
+    font-size: 11px;
+}
+
+.instructions {
+    margin-top: 8px;
+    font-size: 0.75em;
+}
